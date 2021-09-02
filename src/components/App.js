@@ -69,10 +69,16 @@ const posts = [{
   date: '2021-7-21'
 }],
   books = [{
-
+    author: 'A. C. Clarke',
+    name: 'Vesmírná odysea',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam quasi veniam dolor? Excepturi provident animi nesciunt quae. Velit incidunt sapiente quod, dolore obcaecati eaque quos doloribus. Doloribus eveniet animi, amet iste libero accusantium perferendis architecto excepturi sed maiores facilis in! Sed modi odit impedit a expedita iste maxime magni sapiente qui. Laborum tempore blanditiis culpa, officia enim veritatis facere voluptatum. Ipsam similique nemo alias quod minima quis, amet, deleniti accusantium in voluptatem sapiente tenetur numquam beatae assumenda expedita iusto.'
+  }, {
+    author: 'Andy Weir',
+    name: 'Marťan',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quibusdam quasi veniam dolor? Excepturi provident animi nesciunt quae. Velit incidunt sapiente quod, dolore obcaecati eaque quos doloribus. Doloribus eveniet animi, amet iste libero accusantium perferendis architecto excepturi sed maiores facilis in! Sed modi odit impedit a expedita iste maxime magni sapiente qui. Laborum tempore blanditiis culpa, officia enim veritatis facere voluptatum. Ipsam similique nemo alias quod minima quis, amet, deleniti accusantium in voluptatem sapiente tenetur numquam beatae assumenda expedita iusto.'
   }],
-  authors = [],
-  people = []
+  authors = ['Erich Maria Remarque', 'Karel Čapek', 'Arthur C. Clarke', 'Orwel', 'Jordan B. Peterson', 'Erich Maria Remarque'],
+  people = ['Jordan B. Peterson', 'Huberman', 'Zbyněk Hajný']
 
 function App() {
   return (

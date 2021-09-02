@@ -47,13 +47,13 @@ function Header() {
   return (
     <NAV>
       <UL>
-        <Link to="/people">
+        <Link to="/people#authors">
           <LI>Autoři, <LightMenuItem>kteří mě ovlivnili</LightMenuItem></LI>
         </Link>
         <Link to="/books">
           <LI>Všechny knížky, <LightMenuItem>které jsem přečetl</LightMenuItem></LI>
         </Link>
-        <Link to="/people">
+        <Link to="/people#personalities">
           <LI>Osobnosti, <LightMenuItem>ke kterém vzhlížím</LightMenuItem></LI>
         </Link>
         <Link to="/">
