@@ -47,7 +47,7 @@ function Header() {
   return (
     <NAV>
       <UL>
-        <Link to="/people#authors">
+        <Link to="/people#author">
           <LI>Autoři, <LightMenuItem>kteří mě ovlivnili</LightMenuItem></LI>
         </Link>
         <Link to="/books">

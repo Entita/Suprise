@@ -60,7 +60,7 @@ const Emoji = styled.i`
 
 function AuthorsHeader() {
     return (
-        <Section>
+        <Section id="author">
             <Content>
                 <ContentH2>Ovlivněn těmito autory</ContentH2>
                 <ContentP>Zní to jak nápis na hrob, ale zatím mě nenapadl lepší nadpis (možná to časem změním). Jsou tu dvě kategorie jedna se věnuje autorům z knížek, kteří mě ovlivnili a druhá osobnostem. Je mezi nimi tenká hranice a pravdou je, že se prolínají. Autoří knížek jsou též osobnosti a většina osobnosti se do mého povědomí dostala skrz knížky. Důležité podotknout, že tu jsou jen vybraní autoři a ne všichni autoři, jak tomu bylo u knížek, které jsem přečetl. Výhodou stránek určených pro mě je ten, že logiku musejí dávat mně. A já ji zde vidím. <Emoji /></ContentP>

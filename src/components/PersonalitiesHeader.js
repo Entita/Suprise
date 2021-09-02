@@ -44,7 +44,7 @@ const RightRect = styled.div`
 function PersonalitiesHeader() {
     return (
         <>
-        <Section>
+        <Section id="personalities">
             <Content>
                 <ContentH2>Osobnosti jež mě formovaly</ContentH2>
                 <ContentP>Když jsme ve 3. ročníku na střední škole s našim třídním učitelem Milanem Baránkem poprvé v hodinách fyziky mluvili o lomu světla disperzi a barevném spektru, tak mi v hlavě utkvěl obrazek barevného spktra -> hlavně jeho rozmanitost. Vybavil jsem si ho hned, jakmile jsem začal dávat dohromady osobnosti, které mě ovlivnili. Dokud to člověk nemá před sebou, tak nevidí jak i on sám je nakonec rozmanitý a jeho vědomosti jsou rozšířené do celé řady oblastí. Od historie přes pšenici (biologii), až po mikroprocesory v utrobách počitačové sestavy.</ContentP>

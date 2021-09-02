@@ -2,7 +2,7 @@ import MeSection from './MeSection';
 import InfoSection from './InfoSection';
 import PostsSection from './PostsSection';
 
-function indexPage({ posts }) {
+function IndexPage({ posts }) {
     return (
         <>
             <MeSection />
@@ -12,4 +12,4 @@ function indexPage({ posts }) {
     )
 }
 
-export default indexPage
+export default IndexPage
