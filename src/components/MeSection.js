@@ -3,7 +3,7 @@ import MeModal from './MeModal';
 import styled from 'styled-components'
 
 const Page = styled.div`
-    background-image: linear-gradient(to bottom, rgba(59, 59, 59, 0), rgba(104, 104, 104, 0), rgba(104, 104, 104, 0), white), url('http://cryptexted.wz.cz/img/two_orange_trees.jpg');
+    background-image: linear-gradient(to bottom, rgba(59, 59, 59, 0), rgba(104, 104, 104, 0), rgba(104, 104, 104, 0), white), url('../images/two_orange_trees.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
