@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import myPhoto from '../images/photo_of_my_self.png'
 
 const Modal = styled.div`
     background-color: rgba(255, 255, 255, 0.815);
@@ -119,7 +120,7 @@ function MeModal() {
         <>
         <Modal>
             <About>
-                <Img src="http://cryptexted.wz.cz/img/photo_of_my_self.png" alt="Photo of myself" />
+                <Img src={myPhoto} alt="Photo of myself" />
                 <H1>Michael Hajný</H1>
                 <AboutP>student of <AboutA href="https://www.inf.upol.cz/">
                     <AboutSpan>Palacky University</AboutSpan>
