@@ -108,9 +108,9 @@ function PostsSection({ posts }) {
 
     function newPost() {
         setCurrPosts(currPosts => [...currPosts, {
-            text: 'můj první post',
-            place: 'Olomouc',
-            date: '2021-7-20'
+            text:  document.getElementById('input_text').value,
+            place: document.getElementById('input_place').value,
+            date: document.getElementById('input_date').value
         }])
     }
 
@@ -121,9 +121,9 @@ function PostsSection({ posts }) {
     return (
         <Section>
             {openForm && (<Form>
-                <Input type="date" />
-                <Input type="text" placeholder="post message" />
-                <Input type="text" placeholder="place where posted" />
+                <Input id="input_date" type="date" />
+                <Input id="input_text" type="text" placeholder="post message" />
+                <Input id="input_place" type="text" placeholder="place where posted" />
                 <SendButton onClick={newPost}><i className="fas fa-paper-plane"></i></SendButton>
             </Form>)}
             <PostModal>
